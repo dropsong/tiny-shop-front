@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 
-let local_host = 'http://127.0.0.1:8000';
-// let local_host = 'http://51.140.127.106:8000';
+// let local_host = 'http://127.0.0.1:8000';
+let local_host = 'http://51.140.127.106:8000';
 
 //获取商品类别信息
 export const queryCategorygoods = params => { return axios.get(`${local_host}/indexgoods/`) }
